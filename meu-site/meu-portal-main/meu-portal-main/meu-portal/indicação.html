@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indique uma serie</title>
+
+</head>
+<body>
+    <header>
+        <h1>Sua Opinião importa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="lançamentos.html">lançamentos</a></li>
+                <li><a href="indicação.html">indicação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Qual serie Voce indica?</h2>
+        <p>Preencha o formulário abaixo para sugerir um novo título para o nosso guia.</p>
+
+        <form action="#"method="post">
+            <div>
+                <label for="nome">Seu nome</label><br>
+                <input type="text" id="nome" name="nome">
+            </div><br>
+
+            <div>
+                <label for="email">Seu E-mail:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+
+        
+                <label for="genero">Gênero da Série:</label><br>
+                <select id="genero" name="genero">
+                    <option value="drama">Drama</option>
+                    <option value="comedia">Comédia</option>
+                    <option value="terror">Terror/Suspense</option>
+                    <option value="scifi">Ficção Científica</option>
+                    <option value="documentario">Documentário</option>
+                </select>
+                <div><br>
+                    
+                    <div>
+                        <label for="comentário">Por que voce recomenda</label><br>
+                        <textarea id="comentário" name="comentário" rows="4"></textarea>
+                    </div><br>
+
+                    <button type="submit">Enviar Recomendação</button>
+                    </form>
+    </main>
+    
+    <footer>
+        <p>&copy; Feito por lara</p>
+    </footer>
+</body>
+</html>
